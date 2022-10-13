@@ -1,0 +1,24 @@
+h1 {
+    background: silver;
+    color: red;
+}
+h2{
+    background: deepskyblue;
+    color: red;
+}
+p {
+    background: yellowgreen;
+    color: darkslategray;
+}
+.fon {
+    background: rosybrown;
+    color: darkblue;
+}
+ul {
+    background: peachpuff;
+    color: blueviolet;
+}
+
+.width {
+    width: 300px;
+}
