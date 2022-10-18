@@ -1,0 +1,47 @@
+.blueBox{
+    background: #08bcd4;
+    width: 500px;
+    height: 300px;
+}
+.mainBox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+    height: 260px;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 25px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 220px;
+    height: 70px;
+    background: #fefefe;
+    font-size: 10px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+p {
+    color: #979797;
+}
+h3{
+    color: #f5c177;
+}
+.fa-sharp{
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 5px;
+    font-size: 30px;
+    color: #999999;
+
+}
+.box2{
+    box-sizing: border-box;
+    padding-left: 15px;
+}
