@@ -1,0 +1,27 @@
+.father{
+    width: 1000px;
+    height: 800px;
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.rose{
+    width: 70px;
+    height: 70px;
+    background: #ef02ff;
+    margin: 20px;
+}
+
+.blue{
+    width: 70px;
+    height: 70px;
+    background: #08bcd4;
+}
+
+.sq:nth-child(2n){
+    position: relative;
+    top: 20px;
+}

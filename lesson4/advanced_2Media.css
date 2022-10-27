@@ -1,0 +1,64 @@
+@media screen and (min-width: 0px) and (max-width: 992px) {
+.main{
+    width: 200px;
+    height: 710px;
+    margin: 0;
+}
+    .box1{
+        width: 46px;
+        height: 46px;
+    }
+
+.box2{
+    width: 146px;
+    height: 46px;
+}
+.boxMedium{
+    width: 200px;
+    height: 520px;
+}
+.box3{
+    width: 196px;
+    height: 46px;
+}
+.box8, .box9{
+display: none;
+}
+.boxSmall{
+    width: 200px;
+    height: 470px;
+}
+ .box4{
+     width: 146px;
+     height: 126px;
+ }
+.box5 {
+    width: 46px;
+    height: 126px;
+}
+.box6{
+    width: 196px;
+    height: 206px;
+}
+.box7{
+    width: 196px;
+    height: 126px;
+}
+.add{
+    display: flex;
+
+}
+.box8_1, .box9_1 {
+    display: flex;
+    width: 96px;
+    height: 56px;
+    border: #e5e1d8 solid 2px;
+    align-items: center;
+    text-align: center;
+}
+.box10{
+    width: 196px;
+    height: 76px;
+    margin-top: 60px;
+}
+}

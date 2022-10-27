@@ -1,3 +1,7 @@
+body {
+    display: flex;
+    justify-content: center;
+}
 .main{
     display: flex;
     justify-content:flex-start;
@@ -6,6 +10,7 @@
     height: 455px;
     color: #e5e1d8;
     background: #686868;
+    margin-top: 40px;
 }
 .box1{
     width: 96px;
@@ -21,18 +26,18 @@
     align-items: center;
     text-align: center;
 }
+.boxMedium{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 290px;
+}
 .box3{
     width: 96px;
     height: 196px;
     border: #e5e1d8 solid 2px;
     align-items: center;
     text-align: center;
-}
-.boxMedium{
-    display: flex;
-    flex-wrap: wrap;
-    width: 400px;
-    height: 290px;
 }
 .boxSmall{
     display: flex;
@@ -67,6 +72,9 @@
     border: #e5e1d8 solid 2px;
     align-items: center;
     text-align: center;
+}
+.box8_1, .box9_1{
+    display: none;
 }
 .box8, .box9{
     width: 96px;
